@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "story-completionist"
+version = "0.1.0"
+description = "Provide a story to Simon and an ending to your story will be created."
+authors = ["dolsen0 <derek.olsen@gmail.com>"]
+license = "dolsen"
+readme = "README.md"
+packages = [{include = "story_completionist"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.26.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
